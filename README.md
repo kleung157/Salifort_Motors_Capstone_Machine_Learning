@@ -42,6 +42,3 @@ Photo Credits: Monty Rakusen / Getty Images
 ## 3. Construct
 
 ## 4. Execute
-
-
-![dashboard](./images/salifort_dashboard.png)
