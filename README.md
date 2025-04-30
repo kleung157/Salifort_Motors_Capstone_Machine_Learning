@@ -393,11 +393,6 @@ XGBoost Model:
 - Perform soft voting for probabilistic outputs using an ensemble model to leverage the strength of the Random Forest and XGBoost model.
 - Instead of a 75/25 train/test split, use a 60/20/20 train/validate/test split approach for the dataset to determine the champion model.
 
-**Resources:**
-- Google Gemini - suggestions and approaches to machine learning models
-- Google Advanced Data Analytics exemplar – machine learning model coding and explanations
-- Google Advanced Data Analytics certificate - review course material to understand and apply concepts
-
 **Executive Summary:**
 
 ![summary](./images/executive_summary.png)
@@ -409,3 +404,8 @@ https://public.tableau.com/views/salifort_motors_capstone/DashboardStory?:langua
 ![dashboard](./images/salifort_dashboard.png)
 
 **Presentation:**
+
+**Resources:**
+- Google Gemini - suggestions and approaches to machine learning models
+- Google Advanced Data Analytics exemplar – machine learning model coding and explanations
+- Google Advanced Data Analytics certificate - review course material to understand and apply concepts
