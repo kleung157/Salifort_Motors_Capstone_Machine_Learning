@@ -262,6 +262,7 @@ XGBoost Model:
 Logistic Regression Model:
 
 ![construct_matrix_1](./images/construct_matrix_1.png)
+- Confusion matrix for logistic regression model using test set.
 - True negatives: 2193. The number of employees who did not leave that the model accurately predicted did not leave.
 - False positive: 128. The number of employees who did not leave that the model inaccurately predicted as leaving.
 - False negatives: 359. The number of employees who left that the model inaccurately predicted did not leave.
@@ -273,12 +274,13 @@ Logistic Regression Model:
 Decision Tree Model:
 
 ![construct_report_1](./images/construct_report_1.png)
-- The first decision tree cross validation (cv) model achieved a precision of 91.5%, recall of 91.7%, f1 of 91.6%, accuracy of 97.2%, and aoc of 97.0%. Indicative of good model performance. However, may be vulnerable to overfitting.
+- The first decision tree cross validation (cv) model achieved a precision of 91.5%, recall of 91.7%, f1 of 91.6%, accuracy of 97.2%, and aoc of 97.0%.Indicative of good model performance. However, may be vulnerable to overfitting.
 
 ![construct_report_5](./images/construct_report_5.png)
-- The second decision tree cross validation (cv) model achieved 85.8% precision, 90.0% recall, 87.8% f1, 95.8% accuracy, and 95.8% auc. Compared to the first decision tree with precision 91.5%, recall 91.7%, f1 91.6%, accuracy 97.2%, and auc  97.0%. Scores did fall on the second tree but because few features were taken into account, scores are still good.
+- The second decision tree cross validation (cv) model achieved 85.8% precision, 90.0% recall, 87.8% f1, 95.8% accuracy, and 95.8% auc. Compared to the first decision tree with precision 91.5%, recall 91.7%, f1 91.6%, accuracy 97.2%, and auc 97.0%. Scores did fall on the second tree but because few features were taken into account, scores are still good.
 
 ![construct_matrix_2](./images/construct_matrix_2.png)
+- Confusion matrix for decision tree model using test set.
 - True negatives: 2376. The number of employees who did not leave that the model accurately predicted did not leave.
 - False positive: 124. The number of employees who did not leave that the model inaccurately predicted as leaving.
 - False negatives: 44. The number of employees who left that the model inaccurately predicted did not leave.
@@ -292,19 +294,49 @@ Decision Tree Model:
 
 
 Random Forest Model:
-- Evaluation scores of the first random forest cv model are 94.9% precision, 91.3% recall, 93.1% f1, 97.7% accuracy, and 98.0% auc. Compared to the first decision tree with precision 91.5%, recall 91.7%, f1 91.6%, accuracy 97.2%, and auc  97.0%. The random forest model outperforms
+
+![construct_report_2](./images/construct_report_2.png)
+- Evaluation scores of the first random forest cross validation (cv) model are 94.9% precision, 91.3% recall, 93.1% f1, 97.7% accuracy, and 98.0% auc. Compared to the first decision tree with precision 91.5%, recall 91.7%, f1 91.6%, accuracy 97.2%, and auc  97.0%. The random forest model outperforms.
+
+![construct_report_3](./images/construct_report_3.png)
 - The first random forest test set had 96.4% precision, 92.0% recall, 94.1% f1, 98.1% accuracy, and 95.6% auc. The test scores were similar to the cross validation scores. This test set was only used for this model.
-- Evaluation scores of the second random forest cv model are 86.6% precision, 88.0% recall, 87.3% f1, 95.7% accuracy, and 96.5% auc. Compared to the second decision tree cv model achieved 85.8% precision, 90.0% recall, 87.8% f1, 95.8% accuracy, and 95.8% auc. Scores dropped slightly but random forest performs better than decision tree if using AUC as deciding metric.
+
+![construct_report_7](./images/construct_report_7.png)
+- Evaluation scores of the second random forest cross validation (cv) model are 86.6% precision, 88.0% recall, 87.3% f1, 95.7% accuracy, and 96.5% auc. Compared to the second decision tree cv model achieved 85.8% precision, 90.0% recall, 87.8% f1, 95.8% accuracy, and 95.8% auc. Scores dropped slightly but random forest performs better than decision tree if using AUC as deciding metric.
+
+![construct_matrix_3](./images/construct_matrix_3.png)
+- Confusion matrix for random forest model using test set.
+- True negatives: 2433. The number of employees who did not leave that the model accurately predicted did not leave.
+- False positive: 67. The number of employees who did not leave that the model inaccurately predicted as leaving.
+- False negatives: 45. The number of employees who left that the model inaccurately predicted did not leave.
+- True positives: 453. The number of employees who left that the model accurately predicted as leaving.
+
+![construct_report_7](./images/construct_report_8.png)
+
+![construct_report 6](./images/construct_report_6.png)
 - The second random forest test set had 87.1% precision, 91.0% recall, 89.0% f1, 96.2% accuracy, and 94.1% AUC. Outperforming the decision tree test model in almost all scores; precision, f1, accuracy and AUC score except for recall.
-- Results of the confusion matrix. True negatives: 2433. The number of employees who did not leave that the model accurately predicted did not leave. False positive: 67. The number of employees who did not leave that the model inaccurately predicted as leaving. False negatives: 45. The number of employees who left that the model inaccurately predicted did not leave. True positives: 453. The number of employees who left that the model accurately predicted as leaving.
+
+![construct_feat 2](./images/construct_feat_2.png)
 - The feature importances plot of the random forest model shows 'last evaluation', 'number_project', 'tenure', and 'overworked' as the most important features in predicting the variable 'left' or employees leaving.
 
 
 XGBoost Model:
-- The XGBoost cv model achieved a 89.6% precision, 88.5% recall, 89.1% f1, 96.4% accuracy, and 93.2% auc. Compared to the second random forest cv model are 86.6% precision, 88.0% recall, 87.3% f1, 95.7% accuracy, and 96.5% auc. Also compared to the second decision tree cv model achieved 85.8% precision, 90.0% recall, 87.8% f1, 95.8% accuracy, and 95.8% auc. Scores were close between the models but F1 was best on XGBoost to help identify minority class (who leaves), while random forest had a better auc to indicate that the model can distinguish between who leaves and stays.
+
+![construct_report 10](./images/construct_report_10.png)
+- The XGBoost cross validation (cv) model achieved a 89.6% precision, 88.5% recall, 89.1% f1, 96.4% accuracy, and 93.2% auc. Compared to the second random forest cv model are 86.6% precision, 88.0% recall, 87.3% f1, 95.7% accuracy, and 96.5% auc. Also compared to the second decision tree cv model achieved 85.8% precision, 90.0% recall, 87.8% f1, 95.8% accuracy, and 95.8% auc. Scores were close between the models but F1 was best on XGBoost to help identify minority class (who leaves), while random forest had a better auc to indicate that the model can distinguish between who leaves and stays.
+
+![construct_report 11](./images/construct_report_11.png)
 - The XGBoost test set model had a 89.5% precision, 89.0% recall, 89.2% f1, 96.4% accuracy, and 93.4% AUC. Compared to the second random forest test set model that had 87.1% precision, 91.0% recall, 89.0% f1, 96.2% accuracy, and 94.1% AUC. Scores were close between the models but F1 was best on XGBoost to help identify minority class (who leaves), while random forest had a better auc to indicate that the model can distinguish between who leaves and stays.
 - XGBoost is more difficult to interpret, would be best to identify employees who left and if cost or time wasn’t an issue for computational models. Random forest would be more cost effective, easier to interpret and give an overall picture of the model performance with a higher AUC score.
-- Results of the confusion matrix. True negatives: 2448. The number of employees who did not leave that the model accurately predicted did not leave. False positive: 52. The number of employees who did not leave that the model inaccurately predicted as leaving. False negatives: 55. The number of employees who left that the model inaccurately predicted did not leave. True positives: 443. The number of employees who left that the model accurately predicted as leaving.
+
+![construct_matrix_4](./images/construct_matrix_4.png)
+- Confusion matrix for XGBoost model using test set.
+- True negatives: 2448. The number of employees who did not leave that the model accurately predicted did not leave.
+- False positive: 52. The number of employees who did not leave that the model inaccurately predicted as leaving.
+- False negatives: 55. The number of employees who left that the model inaccurately predicted did not leave.
+- True positives: 443. The number of employees who left that the model accurately predicted as leaving.
+
+![construct_feat 3](./images/construct_feat_3.png)
 - The feature importances plot of the XGBoost model shows 'last evaluation', 'number_project', 'tenure', and 'overworked' as the most important features in predicting the variable 'left' or employees leaving.
 
 **Resources:**
@@ -320,12 +352,25 @@ XGBoost Model:
 #
 
 ## Execute
+
 **Summary of model results:**
+
+![construct_report 0](./images/construct_report_0.png)
+
+![construct_report 11](./images/construct_report_11.png)
+
 - Random forest model outperformed the decision tree model and logistic regression model in nearly all scores. The biggest indicator is the AUC score to assess the model performance, followed by f1 for accuracy of the model predicting employees leaving.
 - Scores were close between XGBoost and Random Forest models but F1 was best on XGBoost to help identify minority class (who leaves), while random forest had a better auc to indicate that the model can distinguish between who leaves and stays.
 - When deciding between which model is best, XGBoost is more difficult to interpret but if computational cost or development time are not constrained, then XGBoost is more optimized for speed, performance, and accuracy for determining employee attrition, giving a higher F1 score. Random forest would be easier to interpet, more computationally cost effective and time saving for baseline performance, and give an overall picture of the model performance with a higher AUC score.
 
 **Conclusions:**
+
+![construct_feat 1](./images/construct_feat_1.png)
+
+![construct_feat 2](./images/construct_feat_2.png)
+
+![construct_feat 3](./images/construct_feat_3.png)
+
 - The main features that were predicted for an employees leaving are last_evaluation score, number of projects, tenure and overworked.
 - Models and feature importances extracted from models confirm that employees at the company are overworked.
 
