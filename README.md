@@ -226,12 +226,12 @@ Of 0.265, a p-value of ~0.000 and a significance level of 0.05.
 - Something of note is that employees who have a tenure of greater than 6 years tend not to leave the company. 
 - Further investigation may need to be done on the following: The counts of employees that have a satisfaction level of 0 seem to match the rest of the distribution that have a higher average satisfaction level. It's possible that a lot of employee satisfaction levels were not recorded. The average 'satisfaction level' decreased significantly when reaching 4 years of tenure for employees that left.
 
+**Ethical Considerations:**
+- Whether or not to remove the 824 outliers in ‘tenure’ column which could present biases.
+
 **Resources:**
 - Google Gemini - suggestions for Python package imports and EDA functions.
 - Jupyter Notebooks - referencing past Python learning modules for import packages and codes.
-
-**Ethical Considerations:**
-- Whether or not to remove the 824 outliers in ‘tenure’ column which could present biases.
 
 #
 
