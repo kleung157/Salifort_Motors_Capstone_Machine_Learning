@@ -18,11 +18,11 @@
 
 [**Executive Summary**](https://github.com/kleung157/Salifort_Motors_Capstone_Machine_Learning/blob/main/images/executive_summary.png)
 
-[**Full Python Jupyter Notebook**](https://github.com/kleung157/Bellabeat_Case_Study_Google_Data_Analytics/blob/ba4e810b2ea8f7d907c0e844fd44f2d4f9583cc6/bellabeat_case_study_deliverables.Rmd)
+[**Full Python Jupyter Notebook**](https://github.com/kleung157/Salifort_Motors_Capstone_Machine_Learning/blob/2e3791a1d06dfbc67ab287fd00a89724e6f827f6/salifort_capstone_trim.ipynb)
 
 [**Dashboard**](https://public.tableau.com/views/salifort_motors_capstone/DashboardStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-[**Presentation**](https://github.com/kleung157/Bellabeat_Case_Study_Google_Data_Analytics/raw/refs/heads/main/bellabeat_presentation.pptx)
+[**Presentation**]
 
 #
 
