@@ -76,15 +76,14 @@ Build a logistic regression or machine learning model that predicts what factors
 - Renamed 'Work_accident', 'Department', 'average_montly_hours', 'time_spend_company' to 'work_accident', 'department', 'average_monthly_hours', 'tenure' to standardize spelling and snake_case format.
 - There are 824 outliers in the 'tenure' column using interquartile range (IQR) and boxplot visualization.
 
-
-**Resources:**
-- Google Gemini - suggestions for Python package imports and EDA functions.
-- Jupyter Notebooks - referencing past Python learning modules for import packages and codes.
-
 **Ethical Considerations:**
 - Sample size is 14999. May not have sufficient data to represent the test population.
 - 3008 duplicates were removed which is 20% of the data.
 
+**Resources:**
+- Google Gemini - suggestions for Python package imports and EDA functions.
+- Jupyter Notebooks - referencing past Python learning modules for import packages and codes.
+  
 #
 
 ## Analyze
@@ -339,16 +338,16 @@ XGBoost Model:
 ![construct_feat 3](./images/construct_feat_3.png)
 - The feature importances plot of the XGBoost model shows 'last evaluation', 'number_project', 'tenure', and 'overworked' as the most important features in predicting the variable 'left' or employees leaving.
 
-**Resources:**
-- Google Gemini - suggestions for Python coding and approaches to machine learning. 
-- Jupyter Notebooks - referencing past Python learning modules for import packages and codes.
-- Google Advanced Data Analytics exemplar – machine learning model coding and explanations
-
 **Ethical Considerations:**
 - Utilized a 75/25 train/test split on dataset for logistic regression model and used the same split for tree based models.
 - Removed 817 outliers in the logistic regression model.
 - Removed 'satisfaction_level' variable due to data leakage considerations for Tree Based Models.
 
+**Resources:**
+- Google Gemini - suggestions for Python coding and approaches to machine learning. 
+- Jupyter Notebooks - referencing past Python learning modules for import packages and codes.
+- Google Advanced Data Analytics exemplar – machine learning model coding and explanations
+  
 #
 
 ## Execute
