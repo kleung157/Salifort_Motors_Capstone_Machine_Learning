@@ -54,7 +54,11 @@
 ## Plan
 **Background:**
 
-"Currently, there is a high rate of turnover among Salifort employees (turnover data includes both employees who choose to quit their job and employees who are let go). Salifort's senior leadership is concerned about how many employees are leaving the company. Salifort strives to create a corporate culture that supports employee success and professional development. Further, the high turnover rate is costly in the financial sense. Salifort makes a big investment in recruiting, training and upskilling its employees. Salifort Human Resources surveyed a sample of employees to learn more about what might be driving turnover. The Salifort data team was asked to analyze the survey data and come up with ideas for how to increase employee retention."
+"Salifort Motors is a fictional French-based alternative energy vehicle manufacturer. Its global workforce of over 100,000 employees research, design, construct, validate, and distribute electric, solar, algae, and hydrogen-based vehicles. Salifort’s end-to-end vertical integration model has made it a global leader at the intersection of alternative energy and automobiles. 
+
+Currently, there is a high rate of turnover among Salifort employees (turnover data includes both employees who choose to quit their job and employees who are let go). Salifort's senior leadership is concerned about how many employees are leaving the company. Salifort strives to create a corporate culture that supports employee success and professional development. Further, the high turnover rate is costly in the financial sense. Salifort makes a big investment in recruiting, training and upskilling its employees. 
+
+Salifort Human Resources surveyed a sample of employees to learn more about what might be driving turnover. The Salifort data team was asked to analyze the survey data and come up with ideas for how to increase employee retention."
   
 **Stakeholders:**
 
