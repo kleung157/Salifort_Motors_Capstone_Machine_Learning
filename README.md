@@ -160,7 +160,8 @@ Build a logistic regression or machine learning model that predicts what factors
 ![analyze_box_hist_6](./images/analyze_box_hist_6.png)
 - When comparing ‘satisfaction_level’, ‘tenure’ and ‘left’ variables, there a number of interesting findings in a boxplot and histogram. Short tenure (=<4 years) and long tenure (>7 years) employees have similar satisfaction levels for those who stayed at the company.
 - For those who left the company, short tenure employees had lower satisfaction levels than medium tenure (5-6 years) employees that had higher satisfaction levels.
-- The average 'satisfaction_level' decreased significantly when reaching 4 years for employees that left. Employees that reached 7 years or above all stayed at the company.
+- The average 'satisfaction_level' decreased significantly when reaching 4 years for employees that left.
+- Employees that reached 7 years or above all stayed at the company.
 
 ![analyze_box_hist_7](./images/analyze_box_hist_7.png)
 - When comparing ‘average_monthly_hours’, ‘number_’project’, and ‘left’ variables there are a number of interesting findings in a boxplot and histogram.
@@ -173,7 +174,7 @@ Build a logistic regression or machine learning model that predicts what factors
 - An increasing amount of projects also indicated more employees leaving rather than staying.
 
 ![analyze_box_hist_8](./images/analyze_box_hist_8.png)
-- When comparing ‘average_monthly_hours’, ‘number_projects’, and ‘left’ variables, there are number of interesting findings in a boxplot and histogram.
+- When comparing ‘last evaluation’, ‘number_projects’, and ‘left’ variables, there are number of interesting findings in a boxplot and histogram.
 - Similar to 'average_monthly_hours' and 'number_projects', the variables 'last_evaluation' and 'number_projects' shows an increasing trend for where as the number of projects increases, the last evaluation score may increase.
 - The lowest average 'last_evaluation' score is ~0.5 for employees who left at 2 projects. Most last_evaluation scores have an average of 0.65 or above.
 - The highest average 'last_evaluation' scores above ~0.8 for employees who left at 4 or more projects. Which may indicate that the busier and productive employees get, they may choose to resign.
@@ -273,7 +274,7 @@ Logistic Regression Model:
 Decision Tree Model:
 
 ![construct_report_1](./images/construct_report_1.png)
-- The first decision tree cross validation (cv) model achieved a precision of 91.5%, recall of 91.7%, f1 of 91.6%, accuracy of 97.2%, and aoc of 97.0%.Indicative of good model performance. However, may be vulnerable to overfitting.
+- The first decision tree cross validation (cv) model achieved a precision of 91.5%, recall of 91.7%, f1 of 91.6%, accuracy of 97.2%, and aoc of 97.0%. Indicative of good model performance. However, may be vulnerable to overfitting.
 
 ![construct_report_5](./images/construct_report_5.png)
 - The second decision tree cross validation (cv) model achieved 85.8% precision, 90.0% recall, 87.8% f1, 95.8% accuracy, and 95.8% auc. Compared to the first decision tree with precision 91.5%, recall 91.7%, f1 91.6%, accuracy 97.2%, and auc 97.0%. Scores did fall on the second tree but because few features were taken into account, scores are still good.
