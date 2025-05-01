@@ -41,12 +41,14 @@
 - Conduct hypothesis testing.
 
 **Construct**
+- Build a regression model.
+- Evaluate regression model.
 - Build machine learning models.
 - Evaluate machine learning models.
-- Continually iterate and fine-tune models to generate best performance for data.
 
 **Execute**
 - Interpret models.
+- Continually iterate and fine-tune models to generate best performance for data.
 - Communicate final insights with stakeholders (executive summary, dashboard, presentation).
   
 # 
