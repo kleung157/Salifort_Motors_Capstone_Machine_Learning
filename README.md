@@ -22,8 +22,6 @@
 
 [**Dashboard**](https://public.tableau.com/views/salifort_motors_capstone/DashboardStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-[**Presentation**]
-
 #
 
 ### **Contents:**
@@ -406,8 +404,6 @@ XGBoost Model:
 https://public.tableau.com/views/salifort_motors_capstone/DashboardStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ![dashboard](./images/salifort_dashboard.png)
-
-**Presentation:**
 
 **Resources:**
 - Google Gemini - suggestions and approaches to machine learning models
