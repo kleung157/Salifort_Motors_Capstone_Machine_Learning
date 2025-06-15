@@ -18,7 +18,7 @@
 
 [**Executive Summary**](https://github.com/kleung157/Salifort_Motors_Capstone_Machine_Learning/blob/main/images/executive_summary.png)
 
-[**Full Python Jupyter Notebook**](https://github.com/kleung157/Salifort_Motors_Capstone_Machine_Learning/blob/2e3791a1d06dfbc67ab287fd00a89724e6f827f6/salifort_capstone_trim.ipynb)
+[**Full Python Jupyter Notebook**](https://github.com/kleung157/Salifort_Motors_Capstone_Machine_Learning/blob/a2a0a176148106d185675473d20251df8a360f0f/documents/salifort_capstone_trim.ipynb)
 
 [**Dashboard**](https://public.tableau.com/views/salifort_motors_capstone/DashboardStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
